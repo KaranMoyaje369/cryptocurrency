@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.1em !important;
+    font-family: "Poppins", serif !important;
+
+}
+
+body {
+    background-color: black;
+}
+
+/* Hide scrollbar while allowing scrolling */
+html,
+body {
+    overflow: auto;
+    /* Enable scrolling */
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+html,
+body {
+    scrollbar-width: none;
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+html,
+body {
+    -ms-overflow-style: none;
+}
+
+/* Swiper Pagination Style Start... */
+/* Custom Pagination Styling */
+.custom-pagination .swiper-pagination-bullet {
+    background-color: #ff9900 !important;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 2px solid white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, background 0.3s ease;
+}
+
+/* Hover Effect */
+.custom-pagination .swiper-pagination-bullet:hover {
+    transform: scale(1.2);
+    background: #ff6600;
+}
+
+/* Active Bullet */
+.custom-pagination .swiper-pagination-bullet-active {
+    background: #ff6600 !important;
+    transform: scale(1.4);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Swiper Pagination Style End... */
+@import "tailwindcss";
